@@ -28,7 +28,7 @@ function News() {
       <div className="row text-center">
         {news.map((val) => {
           return (
-            <div className="flex flex-col my-3">
+            <div className="max-w-[768px] flex flex-col my-3">
               <div className=" w-26 ">
                 <img className="card-img-top" src={val.urlToImage} />
                 <div className="card-body">

@@ -25,7 +25,7 @@ function TopButtons({ setQuery }) {
   ];
 
   return (
-    <div className="flex items-center justify-around my-12 space-x-6">
+    <div className="max-w-[768px] flex items-center justify-around my-12 space-x-6">
       {cities.map((city) => (
         <button
           key={city.id}

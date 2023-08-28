@@ -3,7 +3,7 @@ import { iconUrlFromCode } from "../Services/weatherService";
 
 function Forecast({ title, items }) {
   return (
-    <div>
+    <div className="max-w-[768px]">
       <div className="flex items-center justify-start mt-6">
         <p className="text-white font-medium uppercase">{title}</p>
       </div>
